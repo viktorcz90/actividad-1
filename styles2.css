@@ -17,7 +17,6 @@ header{
 
 }
 
-
 .logo{
     float:left;
     margin-top: 30px;
@@ -25,7 +24,6 @@ header{
     
     height: 60px;
     width: 200px;
-   
 }
 
 .circulos{
@@ -73,23 +71,18 @@ li a {
     text-decoration: none;
     text-align: center;
     
-}
-
-
- .global{
-     
+}   
+ .global{ 
     display:grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap:10px;
     margin: 10px
 }
-
 .global img{
     
     width:100%;
     height:192px;
 }
-
 
 .boton{
     width: 100%;
@@ -100,7 +93,7 @@ li a {
     text-decoration: none;
     text-align: center;
     color:white;
-    
+
 }
 
  h1{
@@ -138,8 +131,6 @@ li a {
     float:left;
     margin-right: 20px;
     margin-left: 20px;
-
-
 }
 
 .bloquecentro p{
@@ -148,7 +139,6 @@ li a {
 h2{
     font-size: 18px;
 }
-
 .boton2{
     color: white;
     text-decoration: none;
@@ -158,7 +148,6 @@ h2{
     margin-top:10px;
     padding: 6px;
     }
-
 
 footer{
     margin-top: 25px;
@@ -171,6 +160,37 @@ footer{
     padding: 25px 0;
     text-align: center;
     color: white;
+}
+.curriculum
+{
+    
+    display:grid;
+    grid-template-columns: 1fr 2fr;
+    gap:10px;
+    margin-top: 40px;
+
+}
+.curriculum h1
+{   
+    color: black;
+    
+}
+.curriculum h2{
+    font-size: 30px;
+    margin-bottom: 10px;
+
+}
+
+.columnaizquierda
+{   
+    
+    width: 100%;
+
+}
+.columnaderecha
+
+{   width: 100%;
+    margin-left:20px;
 }
 
 @media all and (max-width:320px){
@@ -191,12 +211,9 @@ footer{
         
     }
 
-    
-
     .global{
         
         grid-template-columns: 1fr;
-        
       
     }
     .global img{
@@ -206,8 +223,6 @@ footer{
     .global p{
         width: 100%;
        font-size: 8px;
-      
-     
     }
     .boton{
         width: 230px;
